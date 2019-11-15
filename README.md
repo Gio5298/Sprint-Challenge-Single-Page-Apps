@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: It'll still be able to change the page/URL but it would prevent a server request. Since it wouldn't need to fully change web URL's it would load faster than if it was server side. Also, it does lead to smoother and faster page transitions.
 
 ## Project Set Up
 
