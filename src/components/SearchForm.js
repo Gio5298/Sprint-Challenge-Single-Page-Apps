@@ -12,7 +12,7 @@ export default function SearchForm() {
     axios
     .get('https://rickandmortyapi.com/api/character/')
     .then(response => {
-      const characters = response.data.results.filter(char => char.toLowerCase().includes(query.toLowerCase())
+      const characters = response.data.results.filter(char => char.name.toLowerCase().includes(query.toLowerCase())
       );
       setData(characters)
     })
