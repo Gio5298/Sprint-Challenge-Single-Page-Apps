@@ -10,6 +10,5 @@ return(
       <p>Status: {props.status}</p>
       <p>Location: {props.location}</p>
   </div>
-
 )
 }
